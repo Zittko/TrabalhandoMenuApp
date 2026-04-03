@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuNews"
+        android:icon="@drawable/baseline_library_books"
+        android:title="News" />
+    <item
+        android:id="@+id/menuGlobal"
+        android:icon="@drawable/baseline_language"
+        android:title="GLobal" />
+    <item
+        android:id="@+id/menuForyou"
+        android:icon="@drawable/baseline_star"
+        android:title="For You" />
+    <item
+        android:id="@+id/menuTrending"
+        android:icon="@drawable/baseline_align_vertical_bottom"
+        android:title="Trending" />
+</menu>

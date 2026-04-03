@@ -2,27 +2,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="menuArquivo"
+        android:id="@+id/menuArquivo"
         android:icon="@drawable/baseline_insert_drive_file"
         android:title="Arquivo"
         app:showAsAction="ifRoom" />
     <item
-        android:id="menuEditar"
+        android:id="@+id/menuEditar"
         android:icon="@drawable/baseline_edit"
         android:title="Editar"
         app:showAsAction="ifRoom" />
     <item
-        android:id="menuAlterar"
+        android:id="@+id/menuAlterar"
         android:icon="@drawable/baseline_update"
         android:title="Alterar"
         app:showAsAction="ifRoom" />
     <item
-        android:id="menuExcluir"
+        android:id="@+id/menuExcluir"
         android:icon="@drawable/baseline_trash"
         android:title="Excluir"
         app:showAsAction="ifRoom" />
     <item
-        android:id="menuSalvar"
+        android:id="@+id/menuSalvar"
         android:icon="@drawable/baseline_save"
         android:title="Salvar"
         app:showAsAction="ifRoom" />

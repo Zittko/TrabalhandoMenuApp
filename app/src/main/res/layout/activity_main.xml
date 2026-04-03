@@ -7,8 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <View
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbarMenu"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="#2196F3"/>
+        android:layout_height="wrap_content"
+        app:menu="@menu/menu_principal"
+        app:navigationIcon="@drawable/baseline_menu"
+        app:subtitle="Em desconto"
+        app:title="Bicicleta" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_navbar" />
 </RelativeLayout>
